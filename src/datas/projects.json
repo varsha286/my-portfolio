@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "type": "Web application",
+        "name": "Weather App",
+        "description": "Real-time weather updates and forecasts with personalized notifications.",
+        "live_link": "https://weather-app-phi-sage.vercel.app/",
+        "git_link": "https://github.com/varsha286/Weather-app",
+        "image": "/images/projects/weather.png",
+        "used_technos": [
+            {
+                "name": "Html",
+                "image": "/images/stacks/html.png"
+            },
+            {
+                "name": "Css",
+                "image": "/images/stacks/css.png"
+            },
+            {
+                "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            },
+            {
+                "name": "Weather API",
+                "image": "/images/stacks/wtapi.png"
+            }
+            
+        ]
+    },
+    {
+        "id": 2,
+        "type": "Chrome Extension",
+        "name": "Password manager Extension",
+        "description": "Simplifies Password management by auto-fetching current page URLs",
+        "live_link": "https://github.com/varsha286/Loki-password-manager-extension",
+        "git_link": "https://github.com/varsha286/Loki-password-manager-extension",
+        "image": "/images/projects/pmanager.png",
+        "used_technos": [
+            {
+                "name": "Html",
+                "image": "/images/stacks/html.png"
+            },
+            {
+                "name": "CSS",
+                "image": "/images/stacks/css.png"
+            },
+            {
+                "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            }
+            
+        ]
+    },
+    {
+        "id": 3,
+        "type": "Web application",
+        "name": "Recipe Page",
+        "description": "Design a clean and visually appealing recipe page with simple CSS to showcase ingredients and instructions.",
+        "live_link": "https://github.com/varsha286/Beautiful-restaurant-page",
+        "git_link": "https://github.com/varsha286/Beautiful-restaurant-page",
+        "image": "/images/projects/recipe.png",
+        "used_technos": [
+            {
+                "name": "HTML",
+                "image": "/images/stacks/html.png"
+            },
+            {
+                "name": "CSS",
+                "image": "/images/stacks/css.png"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "Web application",
+        "name": "Chat App",
+        "description": "A real-time chat application built with React and Socket.IO, allowing users to communicate instantly with others in a dynamic and engaging environment.",
+        "live_link": "https://your-chat-app.com",
+        "git_link": "",
+        "image": "/images/projects/chat-app.png",
+        "used_technos": [
+            {
+                "name": "React",
+                "image": "/images/stacks/react.png"
+            },
+            {
+                "name": "Socket.IO",
+                "image": "/images/stacks/socketio.png"
+            },
+            {
+                "name": "CSS",
+                "image": "/images/stacks/css.png"
+            },
+            {
+                "name": "JavaScript",
+                "image": "/images/stacks/js.png"
+            }
+        ]
+    }
+    
+]

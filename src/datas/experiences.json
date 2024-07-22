@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "company": "SDK Games",
+        "company_link": "http://www.sdkgames.com/",
+        "function": "Backend developer",
+        "location": {
+            "name": "Douala, Cameroon",
+            "link": "https://goo.gl/maps/L9QiYbG6zQy98Pfe8"
+        },
+        "still_workinng": false,
+        "start_date": "2019",
+        "end_date": "2020",
+        "tasks": [
+            "Design and develop back-end applications including APIs utilizing Express Node.js and MongoDB.",
+            "Design and modelling database architectures including SQL and NoSQL.",
+            "Develop new application features and distributed services that support high-scale applications.",
+            "Help to evolve front-end and back-end stack, using Typescript to have less chance for errors in run time."
+        ]
+    },
+    {
+        "id": 2,
+        "company": "EstEnLigne Sarl",
+        "company_link": "https://www.linkedin.com/company/estenligne",
+        "function": ".NET web developer",
+        "location": {
+            "name": "Douala, Cameroon",
+            "link": "https://goo.gl/maps/zxYFDdqVggXAkBMm8"
+        },
+        "still_workinng": false,
+        "start_date": "2020",
+        "end_date": "2021",
+        "tasks": [
+            "Develop new features on a wordpress site by creating personalized themes and plugins",
+            "Develop the website for a humanitarian organization for human rights in Cameroon (https://echodh.net) allowing journalists to publish events related to human rights."
+        ]
+    },{
+        "id": 3,
+        "company": "One Nation One Heart",
+        "company_link": "https://onoh.org",
+        "function": "Lead full stack web developer",
+        "location": {
+            "name": "Yaounde, Cameroon",
+            "link": "https://maps.app.goo.gl/Qf9iLfyTbaURU2x56"
+        },
+        "still_workinng": true,
+        "start_date": "2020",
+        "end_date": "2023",
+        "tasks": [
+            "Team management in the web development department, which ranges from assigning tasks to different members to fixing bugs.",
+            "Development of interfaces for the front office of the site and the integration of these interfaces as blade views (laravel)",
+            "Development of interfaces for the backoffice(Admin dashboard) of the site and the integration of these interfaces as blade views",
+            "Database design",
+            "Backend development (controllers, models, databases...)",
+            "Using MVC pattern to implement the interfaces",
+            "Tierce payment APIs integration (MyCoolPay, Stripe,...)"
+        ]
+    },
+    {
+        "id": 4,
+        "company": "Upgrade Group",
+        "company_link": "https://gohze.com/",
+        "function": ".NET web developer",
+        "location": {
+            "name": "Yaounde, Cameroon",
+            "link": "https://goo.gl/maps/w9C2xJPWWFnPp1RB7"
+        },
+        "still_workinng": false,
+        "start_date": "2021",
+        "end_date": "2023",
+        "tasks": [
+            "Web design integration with vue.js",
+            "Frontend development with vue.js for resource management dashboards.",
+            "Backend development with Laravel",
+            "Use of . NET Core for the development of robust, efficient and fast applications.",
+            "Use of Nopcommerce, which is an open source CMS based on . NET core and which allows the development of e-commerce sites.",
+            " Development of Nopcommerce plugins to add new features."
+        ]
+    },
+    {
+        "id": 5,
+        "company": "Bonitech Sarl",
+        "company_link": "#",
+        "function": "Full stack Developer",
+        "location": {
+            "name": "Yaounde, Cameroon",
+            "link": "https://goo.gl/maps/YVrUdeQuQ9FYiwhA6"
+        },
+        "still_workinng": true,
+        "start_date": "2023",
+        "end_date": "2023",
+        "tasks": [
+            "Develop new functionality for the E-commerce site of our main client Toolbrothers",
+            "Develop showcase sites for this customer and others.",
+            "Development of a resource management platform (dashboard) for sellers who have their products on our e-commerce site.",
+            "Writing python scripts to automate certain tasks."
+        ]
+    }
+]

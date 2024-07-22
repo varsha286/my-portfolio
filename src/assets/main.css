@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-important: #64ffda;
+  --color-bg: #05001e;
+  --color-text: #ccd6f6;
+  --pricipal-gray: #8892b0, --margin-bottom-headers: 300px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body.blurred { overflow: hidden; }
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'ubuntu', 'Inter', sans-serif;
+  font-size: medium;
+  overflow: hidden auto;
+  scroll-behavior: smooth;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(5px) brightness(0.7);
+  z-index: 5;
+  cursor: pointer;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-important);
+  border-radius: 10px;
+  border: 3px solid var(--color-bg);
+}
+
+/* General */
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 0 10vw;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+.intro {
+  min-height: calc(100vh - 100px);
+}
+
+.border-bottom-gradient {
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+      45deg,
+      var(--color-bg) 0%,
+      var(--color-important) 50%,
+      var(--color-bg) 100%
+    )
+    80;
+}
+
+.border-top-gradient {
+  border-top: 2px solid;
+  border-image: linear-gradient(
+      45deg,
+      var(--color-bg) 0%,
+      var(--color-important) 60%,
+      var(--color-bg) 100%
+    )
+    80;
+}
+
+/* Links */
+
+.link:hover,
+.link.selected {
+  color: #64ffda;
+  transition: all 0.5s ease-in-out;
+}
+
+.link span {
+  position: relative;
+  display: inline-block;
+}
+
+.link span::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-important);
+  transition: transform .25s ease-out;
+  transform-origin: bottom right;
+}
+
+.menu .link.selected span::after, .link:hover span::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Sections */
+
+.headersection h2 {
+  display: flex;
+  align-items: center;
+  font-size: clamp(20px, 5vw,32px);
+  margin: 80px 0 80px;
+  white-space: nowrap;
+}
+
+.headersection h2::after {
+  content: '';
+  display: block;
+  width: clamp(100px, 30vw, 300px);
+  height: 1px;
+  position: relative;
+  top: 5px;
+  margin-left: 20px;
+  background-image: linear-gradient(
+    45deg,
+    var(--color-bg),
+    var(--color-important) 50%,
+    var(--color-bg)
+  );
+}
+
+@media screen and (max-width: 275px) {
+  .headersection h2::after {
+    display: none;
+  }
+}
+
+/* About me section */
+
+/* Experience section */
+
+/* Swiper */
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+  width: 18px;
+  height: 8px;
+  background: #64ffda;
+  border-radius: 4px;
+}
+
+.swiper-pagination-bullet-active-next,
+.swiper-pagination-bullet-active-next-next,
+.swiper-pagination-bullet-active-prev,
+.swiper-pagination-bullet-active-prev-prev {
+  /* width: 8px;
+    height: 8px; */
+  background: #8892b0 !important;
+}
+
+/* Scroll */
+
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  background: #64ffda;
+  border-radius: 100%;
+}
